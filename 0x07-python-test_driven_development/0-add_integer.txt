@@ -1,0 +1,22 @@
+from 0-add_integer import add_integer
+>>> add_integer(2, 3)
+5
+
+>>> add_integer(2.0, 3.0)
+5
+
+>>> add_integer(2)
+100
+>>> add_integer("hello", 3)
+TypeError: a must be an integer
+
+>>> add_integer(None)
+TypeError: a must be an integer
+
+>>> add_integer("hello", "there")
+TypeError: a must be an integer
+>>> add_integer(float('inf'))
+OverflowError: cannot convert float infinity to integer
+
+>>> add_integer(float('nan'))
+ValueError: cannot convert float NaN to integer
