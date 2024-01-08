@@ -1,0 +1,40 @@
+from 4-print_square import print_square
+print_square(1)  
+# Output: #
+
+print_square(4)
+# Output:
+# ####
+# ####
+# ####
+# ####
+
+print_square(10)
+# Output:
+# ##########
+# ##########
+# ##########
+# ##########
+# ##########
+# ##########
+# ##########
+# ##########
+# ##########
+# ##########
+print_square(0)
+>>> print_square("not an int")
+TypeError: size must be an integer
+
+>>> print_square(5.5)
+TypeError: size must be an integer
+
+>>> print_square(None)
+TypeError: size must be an integer
+
+>>> print_square(-7)
+ValueError: size must be >= 0
+
+>>> print_square(-7.5)
+TypeError: size must be an integer
+>>> print_square()
+TypeError: print_square() missing 1 required positional argument: 'size'
