@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Sends a request to the URL and displays the body of the response."""
+"""It Sends a request to the URL and displays the body of the response."""
 
 
 if __name__ == '__main__':

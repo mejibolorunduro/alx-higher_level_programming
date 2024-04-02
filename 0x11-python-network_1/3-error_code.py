@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Sends a request to the URL and displays the body of the response
+It Sends a request to the URL and displays the body of the response
 (decoded in utf-8).
 """
 
